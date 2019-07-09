@@ -18,7 +18,7 @@
 .contact{
 
   background:#FEFEFE;
-  color:#282c34;
+  color:#0e0e0e;
   width:20%;
   padding: 0.5rem;
   margin: auto;
@@ -28,9 +28,9 @@
 
 .navigation-header{ display: flex; flex-direction: row; justify-content: flex-end; margin: 0.5rem 1rem;}
 
-.list{max-width: 75%; margin:auto; display: flex; flex-direction: row; flex-wrap: wrap;}
-.list-item{display: flex; flex-direction: column; justify-content: center; padding: 1rem; margin:1rem; 
-  background:#FEFEFE; color:#282c34; text-align: center; height: 5rem; width:20%}
+.list{max-width: 75%; margin:auto; display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center}
+.list-item{font-size: 2rem; font-weight: bold; font-style:italic; display: flex; flex-direction: column; justify-content: center; padding: 1rem; margin:1rem; 
+  background:#FEFEFE; color:#0e0e0e; text-align: center; height: 5rem; width:calc(25% - 4rem)}
 
 
 .is-answer{border: 3px solid lawngreen}
@@ -59,4 +59,12 @@
 a{
   color: inherit;
   text-decoration: none;
+}
+button{
+  border:none;
+  padding:0.5rem 1rem;
+  background:orange;
+  color: #FEFEFE;
+  font-size: 1rem;
+  border-radius: 4px;
 }

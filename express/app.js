@@ -10,7 +10,6 @@ const appName = "Foobar";
 const port = (process.env.PORT || 8080);
 const app = express();
 mongoose.connect(process.env.MONGO_DB);
-console.log(process.env.MONGO_DB);
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error'));
 app.use(bodyParser.json()); // Parse JSON from the request body
